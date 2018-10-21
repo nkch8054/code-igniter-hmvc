@@ -51,7 +51,7 @@
             "serverSide": true,
             "order": [],
             "ajax": {
-                url: "<?php echo base_url() . 'ajax_datatable/fetch_user'; ?>",
+                url: "<?php echo base_url() . 'crud/fetch_user'; ?>",
                 type: "POST"
             },
             "columnDefs": [
